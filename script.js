@@ -11,4 +11,6 @@ document.getElementById('openNewWindowButton').addEventListener('click', functio
   
   // Store the reference to the new window as the previous window
   previousWindow = newWindow;
+
+  window.close();
 });
